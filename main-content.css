@@ -1,0 +1,204 @@
+.story-gallery .d-flex-between{
+    gap: 15px;
+    justify-content: space-around;
+}
+.story{
+    background:linear-gradient(transparent,rgba(0,0,0,0.4)), url(images/status-1.png);
+    flex-basis: 24%;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    border-radius: 10px;
+    cursor: pointer;
+    overflow: hidden;
+}
+.story:hover{
+    opacity: .9;
+}
+.story-1{
+    background:linear-gradient(transparent,rgba(0,0,0,0.4)), url(images/status-2.png);
+}
+.story-2{
+    background:linear-gradient(transparent,rgba(0,0,0,0.4)), url(images/status-3.png);
+}
+.story-3{
+    background:linear-gradient(transparent,rgba(0,0,0,0.4)), url(images/status-4.png);
+}
+.story img{
+    position: absolute;
+    top: 15px;
+    width: 50px;
+    height: 50px;
+    left: 10px;
+    border-radius: 50%;
+    border: 5px solid var(--blue);
+}
+
+.story p{
+    position: absolute;
+    bottom: 15px;
+    text-align: center;
+    color: var(--white);
+    font-size: 14px;
+    width: 100%;
+    font-weight: 400;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.story-upload p{
+    position: absolute;
+    height: 50px;
+    background-color: white;
+    bottom: 0px;
+    color: var(--gray-dark);
+    padding-top: 20px;
+    z-index: 3;
+}
+.story-upload img{
+    background-color: orange;
+    top: 180px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 4;
+}
+    
+.story-upload img{
+    border: none !important;
+}
+
+
+
+
+
+/*  ==============  profile-post-area   ============== */
+.profile-post-area{
+    background-color: var(--white);
+    color: var(--gray-dark);
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+}
+.profile-post{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.profile-post img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.profile-post h4{
+    font-size: var(--xs-font);
+}
+.profile-post p{
+    font-size: 13px;
+    cursor: pointer;
+}
+
+/* post input frield */
+.post-input{
+    padding-left: 50px;
+}
+.post-input textarea{
+    padding: 10px 0px;
+    border: none;
+    outline: none;
+    border-bottom: var(--border);
+    resize: none;
+    font-size: 16px;
+    font-family: var(--font-poppin);
+    width: 100%;
+}
+
+/* post-catagory */
+.post-catagory{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.post-catagory a{
+    font-size: 13px;
+    color: var(--gray-dark);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.post-catagory img{
+    width: 20px;
+}
+
+
+
+
+/* ===============   Friends post here   ================== */
+.friends-post-area.d-flex-column{
+    gap: 15px;
+}
+.friend-post{
+    background-color: var(--white);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+.friends-post-area a,.friends-post-area b{
+    font-size: var(--xs-font);
+}
+.friends-post-area p{
+    font-size: var(--xs-font);
+    color: #929292;
+}
+.post-image img{
+    width: 100%;
+    border-radius: 4px;
+}
+.friends-post-header .profile-post p{
+    font-size: 13px;
+}
+
+
+/*--- bottom-icons ----*/
+.bottom-icons{
+    width: 60%;
+}
+.bottom-icons.d-flex-around{
+    justify-content: flex-start;
+    gap: calc(60% - 30%);
+}
+.bottom-icons div{
+    display: flex;
+    gap: 5px;
+    font-size: 17px;
+    align-items: baseline;
+    color: var(--gray-dark);
+}
+.bottom-icons div img{
+    width: 20px;
+    cursor: pointer;
+}
+
+/* bottom-profile" */
+.bottom-profile.d-flex{
+    gap:5px;
+    color: var(--gray-dark);
+    cursor: pointer;
+}
+.bottom-profile img{
+    width: 25px;
+    border-radius: 50%;
+}
+
+
+/* btn load more  */
+.Load-more{
+    width: 100%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+/* footer */
+footer {
+    text-align: center;
+    color: var(--gray-dark);
+}

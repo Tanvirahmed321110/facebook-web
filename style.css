@@ -1,0 +1,155 @@
+/* ---- Google Font ---- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+/* ----  Font Awasome  ---- */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css');
+
+
+
+
+/* ==================  Variable Start Here  =================== */
+:root{
+    
+    /* -----  Font Family Variable  ----- */
+    --font-poppin: 'Poppins', sans-serif;
+    --border: 1px solid #ccc;
+    --box-shadow: 0 0 10px rgba(0,0,0,0.1);
+
+    
+    /* -----  Color Variable Start Here  ----- */
+    --white:#fff;
+    --white-20:#F0F2F5;
+    --gray:#cbdffa;
+    --gray-dark:#626262;
+    --blue:#1876f2;
+    --orange: #41db51;
+    
+    
+    
+    /* -----  Font Size Variable  ----- */
+    --xs-font: 15px;
+    --sm-font: 18px;
+    --md-font: 22px;
+    --lg-font: 25px;
+    --xl-font: 28px;
+    --xxl-font: 33px;
+    --xxxl-font: 40px; 
+}
+
+
+
+
+/* -----  Global Css Start Here  ----- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: var(--font-poppin);
+    background-color: var(--white-20);
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+h1,h2,h3,h4,h5{
+    margin: 0;
+    padding: 0;
+    line-height: normal;
+}
+img{
+    display: block;
+    object-fit: cover;
+    object-position: center;
+    width: 100px;
+}
+
+
+/* ----- Common Class  ------ */
+.text-center{
+    text-align: center;
+    margin: 0 auto;
+}
+.text-right{
+    text-align: right;
+    margin-left: auto;
+}
+.w-50{
+    width: 50%;
+}
+.container{
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.btn{
+    display: inline-block;
+    padding: 8px 15px;
+    border-radius: 5px;
+    color: #626262;
+    border: var(--border);
+}
+
+
+/* -----  Display Flex Class  ------ */
+.d-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.d-flex-column,.d-flex-column-15,.d-flex-column-30{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.d-flex-column-15{
+    gap: 15px;
+}
+.d-flex-column-30{
+    gap: 35px;
+}
+.d-flex-between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.d-flex-around{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+
+
+/* ===============  Facebook Body Common Css ================  */
+.facebook-body{
+    gap: 1.5%;
+}
+.facebook-left-sidebar,.facebook-right-sidebar{
+    flex-basis: 25%;
+    /* background-color: var(--gray); */
+    overflow-y: scroll;
+    align-self: flex-start;
+    height: calc(100vh - 70px);
+    position: sticky;
+    top: 70px;
+    padding-top: 20px;
+}
+
+.facebook-main-content{
+    flex-basis: 48.5%;
+    padding: 20px 30px;
+}

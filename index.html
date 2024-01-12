@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook_Web</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="left-sidebar.css">
+    <link rel="stylesheet" href="right-sidebar.css">
+    <link rel="stylesheet" href="main-content.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <div class="container">
+                <div class="header-content-area d-flex-between">
+                    <!-- header left part  start -->
+                    <div class="header-left d-flex">
+                        <div class="header-logo">
+                            <a href="#" class="d-flex"><i class="d-flex fa-brands fa-facebook-f"></i>FaceBook</a>
+                        </div>
+                        <div class="header-left-nav">
+                            <ul class="d-flex" >
+                                <li><a href="#"><img src="images/notification.png" alt=""></a></li>
+                                <li><a href="#"><img src="images/inbox.png" alt=""></a></li>
+                                <li><a href="#"><img src="images/video.png" alt=""></a></li>
+                                <li class="fa-user-group-container"><a href="#"><i class="fa-solid fa-user-group"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- header left part  end -->
+                    
+                    <!-- header right part  start -->
+                    <div class="header-right d-flex">
+                        <!-- header search box -->
+                        <div class="search-box d-flex">
+                            <img src="images/search.png" alt="">
+                            <input type="search" placeholder="Search...">
+                        </div>
+                        <!-- profile image -->
+                        <div class="header-profile" onclick="settingMenuToggleF()">
+                            <div class="online">
+                                <img  src="images/profile-pic.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- header right part end -->
+                    
+                    
+                    <!-- ------ Setting Menu Start Here  -----------  -->
+                    <div class="setting-menu">
+                        <div class="setting-menu-content-area">
+                            <!-- user profile style  -->
+                            <div class="profile-post">
+                                <div><img src="images/profile-pic.png" alt=""></div>
+                                <div>
+                                    <div class="h4">Ibna Foysal Tanvir</div>
+                                    <a href="#">See More Profile</a>
+                                </div>
+                            </div>
+                            <hr>
+                            <!-- user setting style  -->
+                            <div class="profile-post">
+                                <div><img src="images/feedback.png" alt=""></div>
+                                <div>
+                                    <div class="h4">Give Feedback</div>
+                                    <a href="#">Help us to improve to new design</a>
+                                </div>
+                            </div>
+                            <hr>
+                            <!-- setting links -->
+                            <div class="setting-links d-flex-column">
+                                <div class="setting-link">
+                                    <img src="images/setting.png" alt="">
+                                    <a href="#">Setting & Privacy <img src="images/arrow.png"></a>
+                                </div>
+                                <div class="setting-link">
+                                    <img src="images/help.png" alt="">
+                                    <a href="#">Help & Support <img src="images/arrow.png" ></a>
+                                </div>
+                                <div class="setting-link">
+                                    <img src="images/display.png" alt="">
+                                    <a href="#">Display & Accessablity <img src="images/arrow.png"></a>
+                                </div>
+                                <div class="setting-link">
+                                    <img src="images/logout.png" alt="">
+                                    <a href="#">Logout <img src="images/arrow.png" ></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- ------ Setting Menu End Here  -----------  -->
+                </div>
+            </div>
+        </header>
+        
+        
+        
+        
+        
+        
+        <main>
+            <section class="container">
+                <div class="facebook-body d-flex">
+                    <!-- facebook left sidebar start here -->
+                    <section class="facebook-left-sidebar">
+                        <div class="left-sidebar-content-area">
+                            <div class="left-sidebar-links">
+                                <ul class="d-flex-column">
+                                    <li><a href="#"><img src="images/news.png" alt="">Lates News</a></li>
+                                    <li><a href="#"><img src="images/friends.png" alt="">Friends</a></li>
+                                    <li><a href="#"><img src="images/group.png" alt="">Groups</a></li>
+                                    <li><a href="#"><img src="images/marketplace.png" alt="">Marketplace</a></li>
+                                    <li><a href="#"><img src="images/watch.png" alt="">watch</a></li>
+                                    <li><a href="#"><i class="fa-solid fa-bookmark"></i>Saved</a></li>
+                                    <li><a href="#"><i class="fa-brands fa-page4"></i>Pages</a></li>
+                                    <li><a href="#">See More</a></li>
+                                </ul>
+                            </div>
+                            <!-- Your shortcut -->
+                            <div class="left-sidebar-shortcut">
+                                <ul class="d-flex-column">
+                                    <li class="shortcut-header">Your shortcut</li>
+                                    <li><a href="#"><img src="https://shorturl.at/pwFV0" alt="">Web Devloper</a></li>
+                                    <li><a href="#"><img src="images/shortcut-2.png" alt="">Jonior Devloper</a></li>
+                                    <li><a href="#"><img src="images/shortcut-3.png" alt="">Designer</a></li>
+                                    <li><a href="#"><img src="images/shortcut-4.png" alt="">Java Script</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- facebook left sidebar end here -->
+                    
+                    
+                    
+                    <!-- ------------facebook main content start here -------------------- -->
+                    <section class="facebook-main-content">
+                        <div class="facebook-main-content-area">
+                            <div class="story-gallery d-flex-between">
+                                <!-- story upload in my profile -->
+                                <div class="story story-upload">
+                                    <img src="images/upload.png" alt="">
+                                    <p>Create Story</p>
+                                </div>
+                                <!-- story upload in other profile -->
+                                <div class="story story-1">
+                                    <img src="images/status-2.png" alt="">
+                                    <p>Cute Baby</p>
+                                </div>
+                                <!-- story upload in other profile -->
+                                <div class="story story-2">
+                                    <img src="images/status-3.png" alt="">
+                                    <p>Meridian </p>
+                                </div>
+                                <!-- story upload in other profile -->
+                                <div class="story story-3">
+                                    <img src="images/shortcut-4.png" alt="">
+                                    <p>John Cory</p>
+                                </div>
+                            </div>
+                            
+                            <!-- profile post start here -->
+                            <div class="profile-post-area d-flex-column">
+                                <div class="profile-post">
+                                    <div><img src="images/profile-pic.png" alt=""></div>
+                                    <div>
+                                        <div class="h4">Ibna Foysal Tanvir</div>
+                                        <p>Public <i class="fa-solid fa-caret-down"></i></p>
+                                    </div>
+                                </div>
+                                <!-- post input frield -->
+                                <div class="post-input">
+                                    <textarea placeholder="What's on your mind, Foysal?"></textarea>
+                                    <div class="post-catagory">
+                                        <a href="#"><img src="images/live-video.png" alt="">Live Video</a>
+                                        <a href="#"><img src="images/photo.png" alt="">Photo/Video</a>
+                                        <a href="#"><img src="images/feeling.png" alt="">Feeling/Activty</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- profile post end here -->
+                            
+                            <!-- ----- friends public post start here------ -->
+                            <div class="friend-post">
+                                <div class="friends-post-area d-flex-column">
+                                    <!-- friend post header here -->
+                                    <div class="friends-post-header d-flex-between">
+                                        <div class="profile-post">
+                                            <div><img src="images/profile-pic.png" alt=""></div>
+                                            <div>
+                                                <div class="h4">Ibna Foysal Tanvir</div>
+                                                <p>Jan 8 2024, 8:pm</p>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                                        </div>
+                                    </div>
+                                    <!-- friend post header here -->
+                                    <!-- post text -->
+                                    <div class="post-text">
+                                        <p>Join Rabbi Ed Rosenthal, <b>@EasyTutorial</b> Founder of Repair the Sea, for an exploration of the  of the Sea.” Based on teachings and texts from the Jewish tradition, ascinating experience to <a href="#">#EasyTutorial</a> <a href="#">#Youtube Channel</a></p>
+                                    </div>
+                                    <!-- post image -->
+                                    <div class="post-image">
+                                        <img src="images/feed-image-1.png" alt="">
+                                    </div>
+                                    <!-- activity icons and mini profile -->
+                                    <div class="bottom-icons-area d-flex-between">
+                                        <div class="bottom-icons d-flex-around">
+                                            <div><img src="images/like-blue.png" alt="">12</div>
+                                            <div><img src="images/comments.png" alt="">2</div>
+                                            <div><img src="images/share.png" alt="">1</div>
+                                        </div>
+                                        <!-- bottom mini profile pic -->
+                                        <div class="bottom-profile d-flex">
+                                            <img src="images/profile-pic.png" alt="">
+                                            <i class="fa-solid fa-caret-down"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- friend public post end here -->
+                            <!-- friends public post start here -->
+                            <div class="friend-post">
+                                <div class="friends-post-area d-flex-column">
+                                    <!-- friend post header here -->
+                                    <div class="friends-post-header d-flex-between">
+                                        <div class="profile-post">
+                                            <div><img src="images/photo2.png" alt=""></div>
+                                            <div>
+                                                <div class="h4">Merin Rabby</div>
+                                                <p>Jan 9 2024, 18:pm</p>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                                        </div>
+                                    </div>
+                                    <!-- friend post header here -->
+                                    <!-- post text -->
+                                    <div class="post-text">
+                                        <p>Hello Everyone!</p>
+                                    </div>
+                                    <!-- post image -->
+                                    <div class="post-image">
+                                        <img src="images/feed-image-2.png" alt="">
+                                    </div>
+                                    <!-- activity icons and mini profile -->
+                                    <div class="bottom-icons-area d-flex-between">
+                                        <div class="bottom-icons d-flex-around">
+                                            <div><img src="images/like-blue.png" alt="">2</div>
+                                            <div><img src="images/comments.png" alt="">0</div>
+                                            <div><img src="images/share.png" alt="">0</div>
+                                        </div>
+                                        <!-- bottom mini profile pic -->
+                                        <div class="bottom-profile d-flex">
+                                            <img src="images/photo1.png" alt="">
+                                            <i class="fa-solid fa-caret-down"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- friend public post end here -->
+                            <!-- friends public post start here -->
+                            <div class="friend-post">
+                                <div class="friends-post-area d-flex-column">
+                                    <!-- friend post header here -->
+                                    <div class="friends-post-header d-flex-between">
+                                        <div class="profile-post">
+                                            <div><img src="images/photo6.png" alt=""></div>
+                                            <div>
+                                                <div class="h4">Jerry Rose</div>
+                                                <p>Jan 8 2024, 8:pm</p>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                                        </div>
+                                    </div>
+                                    <!-- friend post header here -->
+                                    <!-- post text -->
+                                    <div class="post-text">
+                                        <p>Founder of Repair the Sea, for an exploration of the  of the Sea.” Based on teachings and texts from the Jewish tradition, ascinating experience<a href="#">#Youtube Channel</a></p>
+                                    </div>
+                                    <!-- post image -->
+                                    <div class="post-image">
+                                        <img src="images/feed-image-3.png" alt="">
+                                    </div>
+                                    <!-- activity icons and mini profile -->
+                                    <div class="bottom-icons-area d-flex-between">
+                                        <div class="bottom-icons d-flex-around">
+                                            <div><img src="images/like-blue.png" alt="">52</div>
+                                            <div><img src="images/comments.png" alt="">12</div>
+                                            <div><img src="images/share.png" alt="">4</div>
+                                        </div>
+                                        <!-- bottom mini profile pic -->
+                                        <div class="bottom-profile d-flex">
+                                            <img src="images/photo2.png" alt="">
+                                            <i class="fa-solid fa-caret-down"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- friend public post end here -->
+                            <!-- friends public post start here -->
+                            <div class="friend-post">
+                                <div class="friends-post-area d-flex-column">
+                                    <!-- friend post header here -->
+                                    <div class="friends-post-header d-flex-between">
+                                        <div class="profile-post">
+                                            <div><img src="images/photo4.png" alt=""></div>
+                                            <div>
+                                                <div class="h4">Domingo Jerry</div>
+                                                <p>Jan 11 2024, 4:am</p>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                                        </div>
+                                    </div>
+                                    <!-- friend post header here -->
+                                    <!-- post text -->
+                                    <div class="post-text">
+                                        <p>How Are You? My all Friends??</p>
+                                    </div>
+                                    <!-- post image -->
+                                    <div class="post-image">
+                                        <img src="images/feed-image-4.png" alt="">
+                                    </div>
+                                    <!-- activity icons and mini profile -->
+                                    <div class="bottom-icons-area d-flex-between">
+                                        <div class="bottom-icons d-flex-around">
+                                            <div><img src="images/like-blue.png" alt="">22</div>
+                                            <div><img src="images/comments.png" alt="">2</div>
+                                            <div><img src="images/share.png" alt="">0</div>
+                                        </div>
+                                        <!-- bottom mini profile pic -->
+                                        <div class="bottom-profile d-flex">
+                                            <img src="images/photo3.png" alt="">
+                                            <i class="fa-solid fa-caret-down"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- friend public post end here -->
+                        </div>
+                        
+                        <!-- load more btn -->
+                        <div class="Load-more">
+                            <div class="btn">Load More</div>
+                        </div>
+                        
+                        <footer>
+                            <small>Copy right 2024 - Easy Tutorial</small>
+                        </footer>
+                    </section>
+                    <!-- --------------  facebook main content start here  ------------------->
+                    
+                    
+                    
+                    
+                    
+                    <!-- facebook right sidebar start here -->
+                    <section class="facebook-right-sidebar">
+                        <div class="right-sidebar-content-area">
+                            <div class="right-sidebar-events d-flex-column-30">
+                                <!-- social media event start -->
+                                <div class="d-flex-column-15">
+                                    <!-- event title -->
+                                    <div class="right-sidebar-event-title d-flex-between">
+                                        <h4>Events</h4>
+                                        <a href="#">See All</a>
+                                    </div>
+                                    <!-- single event  -->
+                                    <div class="event">
+                                        <div class="left-event">
+                                            <h4>18 </h4>
+                                            <span>Jan</span>
+                                        </div>
+                                        <div class="right-event">
+                                            <h4><i class="fa-solid fa-location-dot"></i>Social Media</h4>
+                                            <p>Ibna Foysal Tanvir</p>
+                                            <a href="#">More info</a>
+                                        </div>
+                                    </div>
+                                    <!-- single event  -->
+                                    <div class="event">
+                                        <div class="left-event">
+                                            <h4>23</h4>
+                                            <span>March</span>
+                                        </div>
+                                        <div class="right-event">
+                                            <h4><i class="fa-solid fa-location-dot"></i>Mobile Marketing</h4>
+                                            <p>Ibna Foysal Tanvir</p>
+                                            <a href="#">More info</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- social media event start -->
+                                
+                                <!-- social media Advertiments event start -->
+                                <div class="d-flex-column-15">
+                                    <!-- event title -->
+                                    <div class="right-sidebar-event-title d-flex-between">
+                                        <h4>Advertiments</h4>
+                                        <a href="#">Close</a>
+                                    </div>
+                                    <div>
+                                        <img class="ads-img" src="images/advertisement.png" alt="">
+                                    </div>
+                                </div>
+                                <!-- social media Advertiments event end -->
+                                
+                                <!-- conversion chat list -->
+                                <div class="conversion-chat d-flex-column">
+                                    <!-- event title -->
+                                    <div class="right-sidebar-event-title d-flex-between">
+                                        <h4>Conversion</h4>
+                                        <a href="#">Hide Chat</a>
+                                    </div>
+                                    
+                                    <!-- all chat list start here -->
+                                    <div class="all-chat-list d-flex-column">
+                                        
+                                        <!-- chat list persion active -->
+                                        <div class="chat-list">
+                                            <div class="online">
+                                                <img src="images/member-1.png" alt="">
+                                            </div>
+                                            <p>Samona Rose</p>
+                                        </div>
+                                        <!-- chat list persion active -->
+                                        
+                                        <div class="chat-list">
+                                            <div class="online">
+                                                <img src="images/member-2.png" alt="">
+                                            </div>
+                                            <p>Dark  Marry</p>
+                                        </div>
+                                        <!-- chat list persion active -->
+                                        
+                                        <div class="chat-list">
+                                            <div class="online">
+                                                <img src="images/member-3.png" alt="">
+                                            </div>
+                                            <p>John Cory</p>
+                                        </div>
+                                        <!-- chat list persion active -->
+                                        
+                                        <div class="chat-list">
+                                            <div class="online">
+                                                <img src="images/member-4.png" alt="">
+                                            </div>
+                                            <p>Rasel Khan</p>
+                                        </div>
+                                        <!-- chat list persion active end -->
+                                        
+                                    </div>
+                                    <!-- all chat list start here -->
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- facebook right sidebar end here -->
+                </div>
+            </section>
+        </main>
+        
+        
+        
+        
+        
+        
+        
+        
+    </div> <!--  main body wrapper ./ -->
+    <script src="app.js"></script>
+</body>
+</html>

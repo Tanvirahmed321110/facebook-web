@@ -1,0 +1,67 @@
+.facebook-left-sideba::-webkit-scrollbar {
+    width: 8px;
+  }
+.facebook-left-sidebar{
+    /* padding: 10px; */
+}
+.left-sidebar-links ul li{
+    padding: 8px 4px;
+}
+/* hover in single item */
+.left-sidebar-links ul li:hover{
+    background-color: rgba(169, 169, 169, 0.548);
+    border-radius: 6px;
+}
+.left-sidebar-links ul li a{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: var(--gray-dark);
+    width:100%;
+}
+.left-sidebar-links ul li a img{
+    width: 25px;
+}
+.left-sidebar-links ul li i{
+    font-size: var(--md-font);
+    width: 25px;
+    color: var(--blue)
+}
+.left-sidebar-links ul{
+    padding-bottom: 20px;
+    border-bottom: var(--border);
+}
+.left-sidebar-links ul.d-flex-column{
+    gap: 5px;
+}
+
+
+/*=========== left-sidebar-shortcut ============ */
+.left-sidebar-shortcut{
+    padding: 20px 0;
+    padding-right: 10px;
+}
+.left-sidebar-shortcut ul.d-flex-column{
+    gap: 8px;
+}
+.left-sidebar-shortcut ul li{
+    padding: 8px 5px;
+}
+.left-sidebar-shortcut ul li:hover{
+    background-color: rgba(169, 169, 169, 0.548);
+    border-radius: 6px;
+}
+.left-sidebar-shortcut ul li a{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    color: var(--gray-dark);
+}
+.left-sidebar-shortcut ul li a img{
+    width: 45px;
+    border-radius: 10px;
+}
+.left-sidebar-shortcut .shortcut-header{
+    color: var(--gray-dark);
+    font-size: var(--sm-font);
+}

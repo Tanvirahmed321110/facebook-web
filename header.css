@@ -1,0 +1,147 @@
+
+@import './style.css';
+/* ===============  Header Start Here  ================== */
+header{
+    background-color: var(--blue);
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+}
+.header-logo .d-flex{
+    gap: 10px;
+}
+.header-logo a{
+    font-size: var(--lg-font);
+    color: var(--white-20);
+    font-weight: 500;
+}
+.header-logo i{
+    color: var(--blue);
+    background-color: var(--white-20);
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    font-size: var(--xl-font);
+    border-radius: 50%;
+}
+
+/* header-left-nav */
+.header-left.d-flex{
+    gap: 50px;
+}
+.header-left-nav .d-flex{
+    gap: 25px;
+}
+.header-left-nav ul li img{
+    width: 24px;
+}
+.fa-user-group-container{
+    margin-top: -4px;
+}
+.header-left-nav ul i{
+    display: inline-block;
+    font-size:var(--sm-font);
+    color: var(--white-20);
+}
+
+/*================== header-right ===================*/
+.header-right.d-flex{
+    gap:10px;
+}
+
+.header-right .search-box {
+    background-color: var(--white-20);
+    width: 340px;
+    padding: 0 15px;
+    border-radius:30px;
+}
+.search-box img{
+    width: 20px;
+}
+.search-box input{
+    width: 100%;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    padding: 10px 0px;
+    font-size: var(--xs-font);
+}
+
+/* header-profile */
+.header-profile img{
+    width: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.online{
+    position: relative;
+}
+.online::after{
+    content: '';
+    position:absolute;
+    height: 8px;
+    width: 8px;
+    border: 2px solid var(--white-20);
+    border-radius: 50%;
+    background-color: var(--orange);
+    top: 0;
+    right: 0;
+}
+
+
+
+
+/*===========   setting-menu  hide content  ============*/
+header .container{
+    position: relative;
+}
+.setting-menu{
+    position: absolute;
+    background-color: var(--white);
+    top:120%;
+    width: 90%;
+    max-width: 340px;
+    right: 20px;
+    box-shadow: var(--box-shadow);
+    overflow: hidden;
+    border-radius: 4px;
+    transition: all .4s linear;
+    height: 0px;
+}
+.setting-menu-content-area{
+    padding: 20px;
+}
+.setting-menu.setting-menu-toggle{
+    height: 385px;
+}
+.profile-post a{
+    font-size: 13px;
+}
+.setting-menu hr{
+    height: 1px;
+    background: #9a9a9a;
+    margin: 15px 0;
+}
+.setting-links.d-flex-column{
+    gap: 15px;
+}
+.setting-link{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+.setting-link a{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+    font-size: 14px;
+}
+.setting-link img:first-child{
+    width: 35px;
+}
+.setting-link a img{
+    width: 10px !important;
+}

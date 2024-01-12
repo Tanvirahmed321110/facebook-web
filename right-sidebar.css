@@ -1,0 +1,100 @@
+
+.facebook-right-sidebar::-webkit-scrollbar {
+    /* width: 15px; */
+  }
+  .facebook-right-sidebar::-webkit-scrollbar-thumb {
+    background:#C1C1C1;
+  }
+.right-sidebar-events{
+    width: 100%;
+    padding: 20px;
+    background-color: var(--white);
+    color: var(--gray-dark);
+    border-radius: 4px;
+}
+
+/*-----  right-sidebar-event-title ------ */
+.right-sidebar-event-title h4{
+    font-size: var(--xs-font);
+    color: var(--gray-dark);
+    font-weight: 600;
+}
+.right-sidebar-event-title a{
+    font-size: 13px;
+    color: var(--blue);
+    
+}
+
+/*----  event  ------*/
+.event{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    font-size: 15px;
+}
+.event p,.event a,.event span{
+    font-size: 13px;
+}
+.event a{
+    color: var(--blue);
+}
+.left-event{
+    width: 65px;
+    height: 65px;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    box-shadow: var(--box-shadow);
+    border-radius:10px;
+    padding-top: 8px;
+}
+.left-event span{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: var(--blue);
+    width: 100%;
+    color: white;
+    padding: 2px 0;
+    font-size: 13px;
+}
+
+/*----- right event -----*/
+.right-event h4{
+    font-size: 14.5px;
+    font-weight: 500;
+}
+.right-event i{
+    font-size: 12px;
+    display: inline-block;
+    padding-right: 4px;
+    color: var(--gray-dark);
+}
+
+/*-----  ads-img  -----*/
+.ads-img {
+    width: 100%;
+    border-radius: 4px;
+}
+
+
+/*----  all-chat-list  ------*/
+.all-chat-list .chat-list{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.all-chat-list.d-flex-column{
+    gap: 20px;
+}
+.all-chat-list .chat-list img{
+    width: 50px;
+    border-radius: 50%;
+}
+.all-chat-list .chat-list p{
+    font-size: var(-xm-font);
+}
+.all-chat-list .chat-list .online::after {
+    top: unset;
+    bottom: 5px;
+}
