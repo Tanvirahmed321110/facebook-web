@@ -1,15 +1,12 @@
 .facebook-left-sideba::-webkit-scrollbar {
     width: 8px;
   }
-.facebook-left-sidebar{
-    /* padding: 10px; */
-}
 .left-sidebar-links ul li{
     padding: 8px 4px;
 }
 /* hover in single item */
 .left-sidebar-links ul li:hover{
-    background-color: rgba(169, 169, 169, 0.548);
+    background-color: var(--gray);
     border-radius: 6px;
 }
 .left-sidebar-links ul li a{
@@ -48,7 +45,7 @@
     padding: 8px 5px;
 }
 .left-sidebar-shortcut ul li:hover{
-    background-color: rgba(169, 169, 169, 0.548);
+    background-color: var(--gray);
     border-radius: 6px;
 }
 .left-sidebar-shortcut ul li a{

@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook_Web</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="header.css">
+    <!-- <link rel="stylesheet" href="left-sidebar.css">
+    <link rel="stylesheet" href="right-sidebar.css"> -->
+    <link rel="stylesheet" href="main-content.css">
+    <link rel="stylesheet" href="profile-page.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <div class="container">
+                <div class="header-content-area d-flex-between">
+                    <!-- header left part  start -->
+                    <div class="header-left d-flex">
+                        <div class="header-logo">
+                            <a href="#" class="d-flex"><i class="d-flex fa-brands fa-facebook-f"></i>FaceBook</a>
+                        </div>
+                        <div class="header-left-nav">
+                            <ul class="d-flex" >
+                                <li><a href="#"><img src="images/notification.png" alt=""></a></li>
+                                <li><a href="#"><img src="images/inbox.png" alt=""></a></li>
+                                <li><a href="#"><img src="images/video.png" alt=""></a></li>
+                                <li class="fa-user-group-container"><a href="#"><i class="fa-solid fa-user-group"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- header left part  end -->
+                    
+                    <!-- header right part  start -->
+                    <div class="header-right d-flex">
+                        <!-- header search box -->
+                        <div class="search-box d-flex">
+                            <img src="images/search.png" alt="">
+                            <input type="search" placeholder="Search...">
+                        </div>
+                        <!-- profile image -->
+                        <div class="header-profile" onclick="settingMenuToggleF()">
+                            <div class="online">
+                                <img  src="images/profile-pic.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- header right part end -->
+                    
+                    
+                    <!-- ------ Setting Menu Start Here  -----------  -->
+                    <div class="setting-menu">
+                        <div class="setting-menu-content-area">
+                            <!-- user profile style  -->
+                            <div class="profile-post">
+                                <div><img src="images/profile-pic.png" alt=""></div>
+                                <div>
+                                    <div class="h4">Ibna Foysal Tanvir</div>
+                                    <a href="#">See More Profile</a>
+                                </div>
+                            </div>
+                            <hr>
+                            <!-- user setting style  -->
+                            <div class="profile-post">
+                                <div><img src="images/feedback.png" alt=""></div>
+                                <div>
+                                    <div class="h4">Give Feedback</div>
+                                    <a href="#">Help us to improve to new design</a>
+                                </div>
+                            </div>
+                            <hr>
+                            <!-- setting links -->
+                            <div class="setting-links d-flex-column">
+                                <div class="setting-link">
+                                    <img src="images/setting.png" alt="">
+                                    <a href="#">Setting & Privacy <img src="images/arrow.png"></a>
+                                </div>
+                                <div class="setting-link">
+                                    <img src="images/help.png" alt="">
+                                    <a href="#">Help & Support <img src="images/arrow.png" ></a>
+                                </div>
+                                <div class="setting-link">
+                                    <img src="images/display.png" alt="">
+                                    <a href="#">Display & Accessablity <img src="images/arrow.png"></a>
+                                </div>
+                                <div class="setting-link">
+                                    <img src="images/logout.png" alt="">
+                                    <a href="#">Logout <img src="images/arrow.png" ></a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div id="dark-btn" class="">
+                            <span></span>
+                        </div>
+                    </div>
+                    
+                    <!-- ------ Setting Menu End Here  -----------  -->
+                </div>
+            </div>
+        </header>
+        
+        
+        
+        
+        
+        <!-- profile page start here -->
+        <main>
+            <section>
+                <div class="profile-page">
+                    <div class="profile-page-inner small-container">
+                        <div class="profile-page-content-area d-flex-column-15">
+                            <!-- profile cover image start -->
+                             <div class="profile-cover-image">
+                                <img src="images/cover.png" alt="cover image">
+                             </div>
+                             <!-- profile cover image end -->
+                             
+                         <!-- -------  profile all deatils content start here  ----------- -->
+                             <div class="profile-all-deatils d-flex-column">
+                                <div class="profile-all-deatils-content-area">
+                                    <!-- profile details start here -->
+                                    <div class="profile-deatils">
+                                        <div class="profile-deatils-content-area d-flex-between">
+                                            <!-- profile deatisl left here -->
+                                            <div class="profile-deatils-left d-flex">
+                                                <div class="profile-image">
+                                                    <img src="images/profile.png" alt="">
+                                                </div>
+                                                <!-- profile name and simple simple info -->
+                                                <div class="profile-name-info ">
+                                                    <div>
+                                                        <h3>Ibna Foysal Tanvir</h3>
+                                                    </div>
+                                                    <div>
+                                                        <p>2455 Friends -43 mutual</p>
+                                                    </div>
+                                                    <div class="mutual-friends d-flex">
+                                                        <img src="images/member-1.png" alt="">
+                                                        <img src="images/member-2.png" alt="">
+                                                        <img src="images/member-3.png" alt="">
+                                                        <img src="images/member-4.png" alt="">
+                                                        <img src="images/member-5.png" alt="">
+                                                    </div>
+                                                </div>
+                                                <!-- profile name and simple simple info end -->
+                                            </div>
+                                            <!-- profile deatisl left end here -->
+                                            
+                                            <!-- profile deatisl right start here -->
+                                            <div class="profile-deatils-right d-flex-column">
+                                                <div class=" profile-deatils-right-buttons d-flex">
+                                                    <button><img src="images/add-friends.png" alt="">Friend</button>
+                                                    <button><img src="images/message.png" alt="">Message</button>
+                                                </div>
+                                                <div class="more">
+                                                    <a href="#"><img src="images/more.png" alt=""></a>
+                                                </div>
+                                            </div>
+                                            <!-- profile deatisl right end here -->
+                                        </div>
+                                    </div>
+                                    <!-- profile details end here -->
+                                </div>
+                             </div>
+                             
+                             <div class="profile-more-details">
+                                <!-- profile intro detils start here -->
+                                <div class="profile-intro-column d-flex-column-15">
+                                    <div class="profile-intro-column-area">
+                                        <div class="profile-intro-info">
+                                            <div>
+                                                <h4>Intro</h4>
+                                                <p>believe in yourself and you can do unbeievoble <span>😄</span></p>
+                                            </div>
+                                        </div>
+                                    
+                                        <div class="intro-hr">
+                                            
+                                        </div>
+                                        
+                                        <div class="intro-items">
+                                            <ul class="d-flex-column-15">
+                                                <li><img src="images/profile-job.png" alt="">Director at 88media Ltd</li>
+                                                <li><img src="images/profile-study.png" alt="">Studied at Canadian univarsity</li>
+                                                <li><img src="images/profile-study.png" alt="">Went to Dhaka</li>
+                                                <li><img src="images/profile-home.png" alt="">Director at 88media Ltd</li>
+                                                <li><img src="images/profile-location.png" alt="">From Dhaka, Bangladesh</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    
+                                    
+                                    <!-- profile  all photos start-->
+                                    <div class="intro-photos-content-area d-flex-column-15">
+                                        <div class="intro-photos-header d-flex-between">
+                                            <h4>Photos</h4>
+                                            <a href="#">All Photos</a>
+                                        </div>
+                                        <div class="intro-photos">
+                                            <div><img src="images/photo1.png" alt=""></div>
+                                            <div><img src="images/photo2.png" alt=""></div>
+                                            <div><img src="images/photo3.png" alt=""></div>
+                                            <div><img src="images/photo4.png" alt=""></div>
+                                            <div><img src="images/photo5.png" alt=""></div>
+                                            <div><img src="images/photo6.png" alt=""></div>
+                                        </div>
+                                    </div>
+                                    <!-- profile  all photos  end -->
+                                    
+                                    
+                                    <!-- profile  all Friends  start-->
+                                    <div class="intro-photos-content-area d-flex-column-15">
+                                        <div class="intro-friends-header ">
+                                            <div class="d-flex-between"> 
+                                                <h4>Friends</h4>
+                                                <a href="#">All Friends</a>
+                                            </div>
+                                            <div>
+                                                <p>2354(43 mutual)</p>
+                                            </div>
+                                        </div>
+                                        <div class="intro-friends">
+                                            <div><img src="images/member-1.png" alt=""><p>Joseph N</p></div>
+                                            <div><img src="images/member-2.png" alt=""><p>Nadam N</p></div>
+                                            <div><img src="images/member-4.png" alt=""><p>Polok Khan</p></div>
+                                            <div><img src="images/member-5.png" alt=""><p>Laden Mia</p></div>
+                                            <div><img src="images/member-6.png" alt=""><p>Mickaels k</p></div>
+                                            <div><img src="images/member-7.png" alt=""><p>Vradib c</p></div>
+                                            <div><img src="images/member-8.png" alt=""><p>Md Khan </p></div>
+                                            <div><img src="images/member-9.png" alt=""><p>James Doe</p></div>
+                                            <div><img src="images/member-3.png" alt=""><p>Edward M</p></div>
+                                        </div>
+                                    </div>
+                                    <!-- profile  all friends  end -->
+                                </div>
+                                
+                                <!-- profile intro detils end here -->
+                                
+                                <!-- profile post detils start here -->
+                                <div class="profile-post-column">
+                                    <div class="profile-post-content-area d-flex-column-15">
+                                        <div class="write-post">
+                                            <div class="write-post-profile d-flex">
+                                                <div>
+                                                    <img src="images/profile-pic.png" alt="">
+                                                </div>
+                                                <div>
+                                                    <h4>Ibna Foysal Tanvir</h4>
+                                                    <p>Public &nbsp;<i class="fa-solid fa-caret-down"></i></p>
+                                                </div>
+                                            </div>
+                                            <!-- write post input frield -->
+                                            <div class="write-post-input">
+                                                <textarea placeholder="What's on your mind Foysal?"></textarea>
+                                            </div>
+                                            <!-- write post catagory -->
+                                            <div class="post-catagory">
+                                                <div class="post-catagory-item">
+                                                    <img src="images/live-video.png" alt="">
+                                                    <p>Live Video</p>
+                                                </div>
+                                                <div class="post-catagory-item">
+                                                    <img src="images/video.png" alt="video">
+                                                    <p>Live Video</p>
+                                                </div>
+                                                <div class="post-catagory-item">
+                                                    <img src="images/feeling.png" alt="">
+                                                    <p>Your / Feeing😄</p>
+                                                </div>
+                                            </div>
+                                            <!-- write post end catagory -->
+                                        </div>
+                                        
+                                        
+                                        <!-- already posts -->
+                                        <div class="already-posts">
+                                            <!-- ----- friends public post start here------ -->
+                                            <div class="friend-post">
+                                                <div class="friends-post-area d-flex-column">
+                                                    <!-- friend post header here -->
+                                                    <div class="friends-post-header d-flex-between">
+                                                        <div class="profile-post">
+                                                            <div><img src="images/profile-pic.png" alt=""></div>
+                                                            <div>
+                                                                <div class="h4">Ibna Foysal Tanvir</div>
+                                                                <p>Jan 8 2024, 8:pm</p>
+                                                            </div>
+                                                        </div>
+                                                        <div>
+                                                            <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                                                        </div>
+                                                    </div>
+                                                    <!-- friend post header here -->
+                                                    <!-- post text -->
+                                                    <div class="post-text">
+                                                        <p>Join Rabbi Ed Rosenthal, <b>@EasyTutorial</b> Founder of Repair the Sea, for an exploration of the  of the Sea.” Based on teachings and texts from the Jewish tradition, ascinating experience to <a href="#">#EasyTutorial</a> <a href="#">#Youtube Channel</a></p>
+                                                    </div>
+                                                    <!-- post image -->
+                                                    <div class="post-image">
+                                                        <img src="images/feed-image-1.png" alt="">
+                                                    </div>
+                                                    <!-- activity icons and mini profile -->
+                                                    <div class="bottom-icons-area d-flex-between">
+                                                        <div class="bottom-icons d-flex-around">
+                                                            <div><img src="images/like-blue.png" alt="">12</div>
+                                                            <div><img src="images/comments.png" alt="">2</div>
+                                                            <div><img src="images/share.png" alt="">1</div>
+                                                        </div>
+                                                        <!-- bottom mini profile pic -->
+                                                        <div class="bottom-profile d-flex">
+                                                            <img src="images/profile-pic.png" alt="">
+                                                            <i class="fa-solid fa-caret-down"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- friend public post end here -->
+                                            <!-- friends public post start here -->
+                                            <div class="friend-post">
+                                                <div class="friends-post-area d-flex-column">
+                                                    <!-- friend post header here -->
+                                                    <div class="friends-post-header d-flex-between">
+                                                        <div class="profile-post">
+                                                            <div><img src="images/photo2.png" alt=""></div>
+                                                            <div>
+                                                                <div class="h4">Merin Rabby</div>
+                                                                <p>Jan 9 2024, 18:pm</p>
+                                                            </div>
+                                                        </div>
+                                                        <div>
+                                                            <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                                                        </div>
+                                                    </div>
+                                                    <!-- friend post header here -->
+                                                    <!-- post text -->
+                                                    <div class="post-text">
+                                                        <p>Hello Everyone!</p>
+                                                    </div>
+                                                    <!-- post image -->
+                                                    <div class="post-image">
+                                                        <img src="images/feed-image-2.png" alt="">
+                                                    </div>
+                                                    <!-- activity icons and mini profile -->
+                                                    <div class="bottom-icons-area d-flex-between">
+                                                        <div class="bottom-icons d-flex-around">
+                                                            <div><img src="images/like-blue.png" alt="">2</div>
+                                                            <div><img src="images/comments.png" alt="">0</div>
+                                                            <div><img src="images/share.png" alt="">0</div>
+                                                        </div>
+                                                        <!-- bottom mini profile pic -->
+                                                        <div class="bottom-profile d-flex">
+                                                            <img src="images/photo1.png" alt="">
+                                                            <i class="fa-solid fa-caret-down"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- friend public post end here -->
+                                            <!-- friends public post start here -->
+                                            <div class="friend-post">
+                                                <div class="friends-post-area d-flex-column">
+                                                    <!-- friend post header here -->
+                                                    <div class="friends-post-header d-flex-between">
+                                                        <div class="profile-post">
+                                                            <div><img src="images/photo6.png" alt=""></div>
+                                                            <div>
+                                                                <div class="h4">Jerry Rose</div>
+                                                                <p>Jan 8 2024, 8:pm</p>
+                                                            </div>
+                                                        </div>
+                                                        <div>
+                                                            <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                                                        </div>
+                                                    </div>
+                                                    <!-- friend post header here -->
+                                                    <!-- post text -->
+                                                    <div class="post-text">
+                                                        <p>Founder of Repair the Sea, for an exploration of the  of the Sea.” Based on teachings and texts from the Jewish tradition, ascinating experience<a href="#">#Youtube Channel</a></p>
+                                                    </div>
+                                                    <!-- post image -->
+                                                    <div class="post-image">
+                                                        <img src="images/feed-image-3.png" alt="">
+                                                    </div>
+                                                    <!-- activity icons and mini profile -->
+                                                    <div class="bottom-icons-area d-flex-between">
+                                                        <div class="bottom-icons d-flex-around">
+                                                            <div><img src="images/like-blue.png" alt="">52</div>
+                                                            <div><img src="images/comments.png" alt="">12</div>
+                                                            <div><img src="images/share.png" alt="">4</div>
+                                                        </div>
+                                                        <!-- bottom mini profile pic -->
+                                                        <div class="bottom-profile d-flex">
+                                                            <img src="images/photo2.png" alt="">
+                                                            <i class="fa-solid fa-caret-down"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- friend public post end here -->
+                                            <!-- friends public post start here -->
+                                            <div class="friend-post">
+                                                <div class="friends-post-area d-flex-column">
+                                                    <!-- friend post header here -->
+                                                    <div class="friends-post-header d-flex-between">
+                                                        <div class="profile-post">
+                                                            <div><img src="images/photo4.png" alt=""></div>
+                                                            <div>
+                                                                <div class="h4">Domingo Jerry</div>
+                                                                <p>Jan 11 2024, 4:am</p>
+                                                            </div>
+                                                        </div>
+                                                        <div>
+                                                            <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                                                        </div>
+                                                    </div>
+                                                    <!-- friend post header here -->
+                                                    <!-- post text -->
+                                                    <div class="post-text">
+                                                        <p>How Are You? My all Friends??</p>
+                                                    </div>
+                                                    <!-- post image -->
+                                                    <div class="post-image">
+                                                        <img src="images/feed-image-4.png" alt="">
+                                                    </div>
+                                                    <!-- activity icons and mini profile -->
+                                                    <div class="bottom-icons-area d-flex-between">
+                                                        <div class="bottom-icons d-flex-around">
+                                                            <div><img src="images/like-blue.png" alt="">22</div>
+                                                            <div><img src="images/comments.png" alt="">2</div>
+                                                            <div><img src="images/share.png" alt="">0</div>
+                                                        </div>
+                                                        <!-- bottom mini profile pic -->
+                                                        <div class="bottom-profile d-flex">
+                                                            <img src="images/photo3.png" alt="">
+                                                            <i class="fa-solid fa-caret-down"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- friend public post end here -->
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- profile post detils end here -->
+                             </div>
+                            <!-- -------  profile all deatils content end here  ----------- -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!-- profile page start here -->
+        
+        
+        
+        
+        <footer>
+            <small>Copy right 2024 - Easy Tutorial</small>
+        </footer>
+        
+        
+        
+        
+    </div> <!--  main body wrapper ./ -->
+    <script src="app.js"></script>
+</body>
+</html>

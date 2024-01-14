@@ -1,14 +1,11 @@
 
-.facebook-right-sidebar::-webkit-scrollbar {
-    /* width: 15px; */
-  }
   .facebook-right-sidebar::-webkit-scrollbar-thumb {
-    background:#C1C1C1;
+    background:var(--scroll-color);
   }
 .right-sidebar-events{
     width: 100%;
     padding: 20px;
-    background-color: var(--white);
+    background-color: var(--right-sidebar);
     color: var(--gray-dark);
     border-radius: 4px;
 }

@@ -2,7 +2,7 @@
 @import './style.css';
 /* ===============  Header Start Here  ================== */
 header{
-    background-color: var(--blue);
+    background-color: var(--header-color);
     padding: 10px 0;
     position: sticky;
     top: 0;
@@ -98,7 +98,7 @@ header .container{
 }
 .setting-menu{
     position: absolute;
-    background-color: var(--white);
+    background-color: var(--bg-color);
     top:120%;
     width: 90%;
     max-width: 340px;
@@ -115,12 +115,17 @@ header .container{
 .setting-menu.setting-menu-toggle{
     height: 385px;
 }
+.setting-menu a{
+    color: var(--text-color);
+}
+
 .profile-post a{
     font-size: 13px;
+    /* color: var(--text-color); */
 }
 .setting-menu hr{
     height: 1px;
-    background: #9a9a9a;
+    background: var(--hr-color);
     margin: 15px 0;
 }
 .setting-links.d-flex-column{
@@ -139,9 +144,41 @@ header .container{
     flex: 1;
     font-size: 14px;
 }
+.h4{
+    color: var(--header-c);
+}
 .setting-link img:first-child{
     width: 35px;
 }
 .setting-link a img{
     width: 10px !important;
+}
+
+
+
+/* dark-btn */
+#dark-btn{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #ccc;
+    padding: 2px 3px;
+    width: 45px;
+    border-radius: 15px;
+    cursor: pointer;
+    display: flex;
+    transition:padding-left .3s,background;
+}
+#dark-btn span{
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: var(--bg-color);
+    
+}
+
+#dark-btn.dark-btn-on{
+    padding-left: 26px;
+    background-color: gray;
 }

@@ -22,7 +22,15 @@
     --gray:#cbdffa;
     --gray-dark:#626262;
     --blue:#1876f2;
+    --header-color:#1876f2;
     --orange: #41db51;
+    --hr-color:#9a9a9a;
+    --scroll-color:#C1C1C1;
+    --body-color:#F0F2F5;
+    --bg-color:#fff;
+    --right-sidebar:#fff;
+    --text-color:#626262;
+    --header-color:#1876f2;
     
     
     
@@ -36,6 +44,13 @@
     --xxxl-font: 40px; 
 }
 
+.dark-theme{
+    --body-color:#0a0a0a;
+    --header-color:#000;
+    --bg-color:#000;
+    --header-c:#d4d4da;
+    --right-sidebar:#0a0a0a;
+}
 
 
 
@@ -48,7 +63,7 @@
 
 body{
     font-family: var(--font-poppin);
-    background-color: var(--white-20);
+    background-color: var(--body-color);
 }
 a{
     text-decoration: none;
@@ -98,6 +113,7 @@ img{
     border-radius: 5px;
     color: #626262;
     border: var(--border);
+    cursor: pointer;
 }
 
 
@@ -152,4 +168,11 @@ img{
 .facebook-main-content{
     flex-basis: 48.5%;
     padding: 20px 30px;
+}
+
+
+/* footer */
+footer{
+    padding: 25px 0;
+    text-align: center;
 }

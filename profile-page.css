@@ -1,0 +1,237 @@
+
+
+.small-container{
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+/*============  profile-cover-image  start here  ============ */
+.profile-page-content-area{
+    margin-top: 20px;
+}
+.profile-cover-image img{
+    width: 100%;
+    border-radius: 5px;
+}
+/*============  profile-cover-image  end here  ============ */
+
+
+
+/*========= profile-all-deatils start here  =============*/
+.profile-all-deatils-content-area{
+    /* padding: 20px; */
+}
+.profile-all-deatils{
+    color: var(--text-color);
+}
+/*========= profile-all-deatils end here  =============*/
+.profile-deatils-content-area{
+    background-color: var(--bg-color);
+    padding: 20px;
+    border-radius: 4px;
+}
+
+/* ----  profile-deatils-left  ----- */
+.profile-deatils-left{}
+.profile-deatils-left.d-flex{
+    align-items: flex-start;
+}
+.profile-image img{
+    border-radius: 10px;
+}
+.profile-name-info h3{
+    font-size:var(--md-font) ;
+    font-weight: 600;
+}
+.profile-name-info p{
+    font-size: 13px;
+}
+.mutual-friends.d-flex{
+    gap: 5px;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.mutual-friends{
+    margin-top: 7px;
+}
+.mutual-friends img{
+    width: 25px;
+    border-radius: 50%;
+}
+
+
+
+/* profile-deatils-right- here */
+.profile-deatils-right-buttons{}
+.profile-deatils-right-buttons button{
+    padding: 6px 10px;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    background-color: var(--blue);
+    color: white;
+    cursor: pointer;
+}
+.profile-deatils-right-buttons button:first-child{
+    background-color: var(--gray);
+    color:var(--text-color) ;
+}
+.profile-deatils-right-buttons img{
+    width: 15px;
+}
+.more{
+    
+    text-align: right !important;
+    
+}
+.more a{
+    padding:10px;
+    background-color: var(--gray);
+}
+.more img{
+    width: 20px;
+    
+}
+
+
+
+
+
+
+
+
+
+/* ==============  profile-more-details start ================  */
+.profile-more-details{
+    display: flex;
+    justify-content: space-between;
+    gap: 2%;
+    color: var(--text-color);
+}
+.profile-intro-column-area{
+    background-color: var(--bg-color);
+    padding: 20px;
+}
+.profile-intro-column{
+    flex-basis: 33%;
+}
+.profile-intro-info div p{
+    padding:5px 25px;
+    text-align: center;
+    font-size: 13.5px;
+}
+.intro-hr{
+    color: gray;
+    border-bottom: 1px solid rgb(204, 201, 201);
+    padding: 10px 0px;
+    margin-bottom: 15px;
+}
+
+.intro-items ul li{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: var(--xm-font);
+}
+.intro-items ul li img{
+    width: 26px;
+}
+
+
+/* intro-photos-content-area */
+.intro-photos-content-area{
+    padding: 20px;
+    background-color: var(--bg-color);
+    border-radius: 5px;
+}
+
+.intro-photos-header a{
+    font-size: 14px;
+    color: blueviolet;
+}
+
+.intro-photos{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+
+
+/*--------- intro-friends-header --------*/
+.intro-friends-header p{
+    font-size: 14px;
+}
+.intro-friends-header a{
+    font-size: 14px;
+    color: blueviolet;
+}
+.intro-friends{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+.intro-friends p{
+    font-size: var(--xs-font);
+}
+
+
+
+/*--------  profile-post-column  --------  */
+.profile-post-column{
+    flex-basis: 64%;
+}
+
+/*---------  write-post  ---------- */
+.write-post{
+    background-color: var(--bg-color);
+    padding: 20px;
+    border-radius: 5px;
+}
+.write-post-profile.d-flex{
+    align-items: start;
+    justify-content: start;
+}
+.write-post-profile img{
+    width: 45px;
+    border-radius: 50%;
+}
+.write-post-profile h4{
+    font-size: 15px;
+    font-weight: 600;
+}
+.write-post-profile p{
+    font-size: 13px;
+}
+.write-post-input textarea{
+    width: 100%;
+    margin: 15px 0px;
+    border: none;
+    outline: none;
+    border-bottom:var(--border);
+    resize: none;
+    padding: 10px 0;
+    font-size: 16px;
+}
+
+/* post-catagory */
+.post-catagory{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+.post-catagory-item{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+}
+.post-catagory-item img{
+    width: 22px;
+}
+/* ==============  profile-more-details  end ================  */
