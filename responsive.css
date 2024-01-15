@@ -1,0 +1,247 @@
+/* ===============  Responsive Start Here  ============== */
+
+@media (max-width:1100px){
+    
+    .facebook-left-sidebar{
+        /* flex-basis: 7% !important; */
+        display: none;
+        background-color: red;
+    }
+    .facebook-right-sidebar{
+        flex-basis: 30%;
+ }
+    .facebook-main-content{
+        flex-basis: calc(100% - 31%) ;
+        padding: 20px 15px;
+    }
+}
+
+
+
+
+
+@media (max-width:900px) {
+    
+    /* variable */
+    :root{
+        --xs-font: 13px;
+        --sm-font: 15px;
+        --md-font: 19px;
+        --lg-font: 22px;
+        --xl-font: 22px;
+        --xxl-font: 25px;
+        --xxxl-font: 30px; 
+    }
+    .container{
+        padding: 0 20px;
+    }
+    
+    .d-flex{
+        gap: 10px;
+    }
+    .d-flex-column,.d-flex-column-15,.d-flex-column-30{
+        gap: 15px;
+    }
+    .d-flex-column-15{
+        gap: 10px;
+    }
+    .d-flex-column-30{
+        gap: 25px;
+    }
+    
+    
+    
+    .facebook-right-sidebar{
+        display: none;
+ }
+    .facebook-body{
+        gap:0%;
+    }
+    
+    .facebook-main-content{
+        flex-basis:100% !important;
+        padding: 20px 0px;
+    }
+    
+    
+    
+    /* header-content-area d-flex-between */
+    
+    .header-left.d-flex,.header-right.d-flex{
+        justify-content: space-between;
+        width: 100%;
+    }
+    .header-logo i{
+        width: 30px;
+        height: 30px;
+        font-size: var(--md-font);
+    }
+    .header-left a{
+        font-size: var(--md-font);
+    }
+    .header-left-nav .d-flex{
+        gap: 15px;
+    }
+    .header-content-area.d-flex-between{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .header-right .search-box{
+        width: 240px ;
+    }
+    
+    
+    
+    /* story-gallery */
+    .story{
+        height: 200px;
+        flex-basis: 25%;
+    }
+    .story-gallery .story:last-child{
+        flex-basis: 20% !important;
+    }
+    .story img {
+        width: 35px;
+        height: 35px;
+        border: 3px solid var(--blue);
+    }
+    .story-upload img {
+        top: 130px;
+    }
+    .story p{
+        font-size: 11px;
+    }
+    
+    
+    
+    
+    /* ======  profile area ====== */
+    
+    .profile-post-area {
+        padding: 12px;
+    }
+    .profile-post-area .h4{
+        font-size: 15.5px !important;
+    }
+    .post-input{
+        padding-left: 5px;
+    }
+    .post-input textarea {
+        padding: 5px 0px;
+        font-size: 13px;
+    }
+    .post-catagory {
+        gap: 15px;
+    }
+    .post-catagory a{
+        font-size: 11px;
+    }
+    .post-catagory img{
+        width: 14px;
+    }
+    
+    
+    
+    
+    
+    
+    /* Profile page  */
+    .profile-deatils-content-area {
+        padding: 15px;
+    }
+    .profile-more-details {
+        gap: 25px;
+        flex-direction: column;
+    }
+    .profile-image img {
+        width: 67px;
+    }
+    .profile-name-info h3 {
+        font-size: var(--sm-font);
+    }
+    
+    .profile-deatils-content-area.d-flex-between{
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        gap: 20px;
+    }
+    .profile-name-info p {
+        font-size: 10px;
+    }
+    .mutual-friends img {
+        width: 20px;
+    }
+    .profile-deatils-right-buttons.d-flex{
+        flex-direction: column;
+        align-items: start;
+    }
+    .profile-deatils-right-buttons button {
+        padding: 5px 8px;
+        display: inline-flex;
+        align-items: center;
+        gap: 5px;
+        font-size: 12px;
+    }
+    .profile-deatils-right-buttons button img{
+        width: 11px;
+    }
+    .more {
+        text-align: left !important;
+    }
+    .more a {
+        padding: 5px;
+    }
+    .more a img {
+        width: 12px;
+    }
+    .intro-photos div img{
+        max-width: 100%;
+    }
+    .intro-photos{
+        max-width: 330px;
+        width: 91% !important;
+    }
+    .intro-friends{
+        grid-template-columns: repeat(4,1fr);
+        gap: 10px;
+    }
+    .intro-friends div img{
+        width: 100%;
+    }
+}
+
+
+
+
+@media (max-width:480px){
+    .story img {
+        width: 30px;
+        height: 30px;
+        border: 2px solid var(--blue);
+    }
+    .header-profile img {
+        width: 40px;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+    .header-left-nav ul li img {
+        width: 20px;
+    }
+    .header-left-nav .d-flex {
+        gap: 10px;
+    }
+    .header-left-nav ul .fa-user-group-container a{
+        margin-top: -7px;
+    }
+    .header-left-nav ul i {
+        font-size: 13px;
+    }
+    
+    .intro-friends{
+        grid-template-columns: repeat(3,1fr);
+    }
+    
+    
+    
+}
